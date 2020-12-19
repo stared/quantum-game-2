@@ -23,7 +23,7 @@
         href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=%22quantumgame.io%22+OR+%22Quantum+Game+with+Photons%22&amp;btnG="
         target="_blank"
         >numerous academic publications</a
-      >, the Top Pick for Education in Gamyfing Quantum Theory, mentioned in VICE and Boing Boing.
+      >, the Top Pick for Education in Gamifying Quantum Theory, mentioned in VICE and Boing Boing.
     </p>
   </div>
 </template>

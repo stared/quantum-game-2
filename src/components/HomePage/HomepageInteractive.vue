@@ -3,8 +3,7 @@
     <EncyclopediaBoard :grid="boardMZ" :step="5" class="grid" :defaultStep="2" />
   </div>
   <p>
-    For more interactive, educational materials, see
-    <router-link to="/info/faraday-rotator">Faraday Rotator explorable explanation</router-link> and
+    For more interactive, educational materials, see and
     <a href="https://github.com/Quantum-Game/bra-ket-vue" target="_blank"
       >⟨𝜑|𝜓⟩.vue visualizer for quantum states and matrices</a
     >, which can be used for quantum computing, quantum chemistry or any other discrete quantum

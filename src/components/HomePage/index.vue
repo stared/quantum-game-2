@@ -4,34 +4,21 @@
       <img src="@/assets/graphics/QG_logo.svg" alt="QuantumGame" />
     </div>
     <div layout="row wrap middle u5">
-      <router-link to="/level/1">
-        <AppButton class="button" type="big">PLAY GAME</AppButton>
-      </router-link>
-      <router-link to="/lab">
-        <AppButton class="button" type="big">VIRTUAL LAB</AppButton>
-      </router-link>
+      <AppButton class="button" type="big inactive">PLAY GAME (coming 2021)</AppButton>
+      <a href="https://lab.quantumflytrap.com">
+        <AppButton class="button" type="big">VIRTUAL LAB (alpha version)</AppButton>
+      </a>
     </div>
     <div class="hello" layout="column u10">
       <h1>{{ i18n.t('homepage.main') }}</h1>
       <p class="main-description">{{ i18n.t('homepage.desc') }}</p>
+      <p>
+        More on the project at the
+        <a href="https://quantumflytrap.com">Quantum Flytrap</a> homepage.
+      </p>
       <HomepageInteractive />
     </div>
-    <div class="gameVersion">
-      <p>
-        Version {{ version }} (beta), based on a
-        <template v-if="commitHash">
-          <a
-            :href="`https://github.com/Quantum-Game/quantum-game-2/commit/${commitHash}`"
-            target="_blank"
-            >{{ commitDate }}</a
-          >
-          commit.
-        </template>
-        <template v-else>{{ commitDate }} snapshot.</template>
-        <br />
-        For optimal experience, play PC (mobile version coming soon).
-      </p>
-    </div>
+
     <div class="hello" layout="column u10">
       <HomepageTestimonials class="testimonials" />
       <HomepageSocial />
